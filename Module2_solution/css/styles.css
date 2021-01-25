@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	text-align: center;
+	font-size: 	
+}
+div .sec1{
+	background-color: gray;
+	border: 1px solid black;
+}
+
+div .sec2{
+	background-color: gray;
+	border: 1px solid black;
+}
+
+div .sec3{
+	background-color: gray;
+	border: 1px solid black;
+}
+
+.h2_1{
+	position: relative;
+	margin-bottom: 3%;
+	padding: 0% 3% 0% 3%;
+	margin-top: 0;
+	clear: left;
+	float: right;
+	background-color: red;
+	border: 1px solid black
+}
+
+.h2_2{
+	position: relative;
+	margin-bottom: 3%;
+	padding: 0% 3% 0% 3%;
+	margin-top:0;
+	float: right; 
+	background-color: yellow;
+	border: 1px solid black
+}
+
+.h2_3{
+	position: relative;
+	margin-bottom: 3%;
+	padding: 0% 3% 0% 3%;
+	margin-top:0; 
+	float: right; 
+	background-color: blue;
+	border: 1px solid black
+}
+
+.p_1{
+	padding: 3%;
+	clear: right;
+}
+
+
+.p_2{
+	padding: 3%;
+	clear: right;
+}
+
+.p_3{
+	padding: 3%;
+	clear: right;
+}
+
+
+
+@media (min-width: 992px){
+	.sec1{
+		margin-left: 2.5%;
+		margin-right: 2.5%;   
+		width: 30%;
+		float: left;
+		box-sizing: border-box;
+	}
+
+	.sec2{
+		margin-left: 0;
+		margin-right: 2.5%;
+		width: 30%;
+		float: left;
+		box-sizing: border-box;
+	}
+
+	.sec3{
+		margin-left: 0;
+		margin-right: 2.5%;
+		width: 30%;
+		float: left;
+		box-sizing: border-box;
+	}
+}
+
+
+
+
+@media (min-width:768px) and (max-width: 991px){
+	.sec1{
+		margin-left: 3.5%;
+		margin-right: 3%;   
+		width: 45%;
+		float: left;
+		box-sizing: border-box;
+	}
+
+	.sec2{
+		margin-left: 0;
+		margin-right: 3.5%;
+		width: 45%;
+		float: left;
+		box-sizing: border-box;
+		
+	}
+
+	.sec3{
+		margin-left: 3.5%;
+		margin-right: 3.5%;
+		width: 93%;
+		float: left;
+		box-sizing: border-box;
+
+		margin-bottom:5%;
+		margin-top: 3.5%
+	}
+}
+
+
+
+@media (max-width: 767px){
+	.sec1{
+		
+		margin-left: 5%;
+		margin-right: 5%;  
+		width: 90%;
+		float: left;
+		box-sizing: border-box; 
+		margin-top: 2.5% 
+	}
+
+	.sec2{
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		float: left;
+		box-sizing: border-box;
+
+		margin-top: 2.5%
+	}
+
+	.sec3{
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		float: left;
+		box-sizing: border-box;
+
+		margin-bottom:2.5%;
+		margin-top: 2.5%
+
+	}
+}
