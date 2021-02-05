@@ -1,0 +1,61 @@
+#header-nav{
+	background-color: #8A8989;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+  padding: 15px 15px ;
+  float: none;
+  margin-bottom: 15px
+}
+
+.navbar-brand a{
+color: white;
+}
+
+
+h1{	
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 0;
+	clear: left;
+}
+
+#nav-list{
+	margin-top: 30px;
+	background-color: none;
+}
+
+#nav-list a{
+	color: white;
+}
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+div .sec1{
+	background-color: gray;
+	border: 1px solid black;
+
+	margin-bottom: 10px;
+}
+
+.h3_1{
+	margin-top: 0;
+	clear: left;
+}
+
+
+.p_1{
+	padding: 3%;
+	clear: right;
+}
+
+
+
